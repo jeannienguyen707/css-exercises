@@ -1,0 +1,12 @@
+Personal notes
+
+Margin: the extra filler "outside" the container. From the <- [element completed] ->
+margin: A (ALl)
+margin: A,B,C,D (TOP,RIGHT,BOT,LEFT)
+margin: Y,X (TOP/BOT and LEFT/RIGHT)
+possible set value: AUTO (horizontally center the element in it's container)
+
+
+
+Padding: the extra filler "inside" the container. From the [<- element out ->]
+same logic as above exclude AUTO
