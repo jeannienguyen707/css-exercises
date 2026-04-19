@@ -8,7 +8,12 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+/*
+before .small-para 
+
+needed to do whole reference 
+*/
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -16,6 +21,10 @@ body {
 .para {
   font-size: 22px;
 }
+
+
+/*
+before:
 
 .confirm {
   background: green;
@@ -29,14 +38,47 @@ body {
   font-size: 20px;
 }
 
-.child {
+
+needed to switch inorder to avoid overiding the previous statement
+(Needed general -> specific)
+*/
+
+.button {
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+  font-size: 20px;
 }
+
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+
+/*
+before:
+
+ .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+needed to reference that it was inbedded
+in other classes. (ancestor/child)
+
+*/
+
+.text .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+
