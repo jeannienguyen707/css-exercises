@@ -39,7 +39,7 @@ before:
 }
 
 
-needed to switch inorder to avoid overiding the previous statement
+needed to switch in order to avoid overriding the previous statement
 (Needed general -> specific)
 */
 
@@ -70,7 +70,7 @@ before:
   font-size: 14px;
 }
 
-needed to reference that it was inbedded
+needed to reference that it was imbedded
 in other classes. (ancestor/child)
 
 */
