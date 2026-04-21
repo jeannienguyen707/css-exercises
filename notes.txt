@@ -10,3 +10,16 @@ possible set value: AUTO (horizontally center the element in it's container)
 
 Padding: the extra filler "inside" the container. From the [<- element out ->]
 same logic as above exclude AUTO
+
+
+FlexBox:
+Display: Flex
+Allows container to be manipulated in Main-Axis and Cross-Axis. Directions are not fixed
+to these terms. TOP/BOT/LEFT/RIGHT. Main-axis choose a direction (row/row reverse or col
+col reverse) and Cross-Axis will be perpendicular to it.
+
+
+Applies to All elements
+justify-content: Modifies the Main-Axis
+Align-item: Modifies the Cross-Axis
+
