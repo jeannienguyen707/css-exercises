@@ -23,3 +23,9 @@ Applies to All elements
 justify-content: Modifies the Main-Axis
 Align-item: Modifies the Cross-Axis
 
+Flex: # # #;
+Each Value is shorthand for flex-grow, flex-shrink, flex-basis
+First:  if Positive, value growth
+Second: if Positive, value shrink
+Third: Starting base value of item
+
