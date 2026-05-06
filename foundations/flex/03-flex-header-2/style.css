@@ -11,7 +11,13 @@ body {
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(231, 223, 223, 0.1);
+  /*******************************************************************************/
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  flex: 0 1 auto;
+
 }
 
 .profile-image {
@@ -45,4 +51,25 @@ a {
 
 ul {
   list-style-type: none;
+  /*******************************************************************************/
+
+
+}
+
+.links{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+
+.left-header{
+  display: flex;
+  width: 1000px;
+  flex-wrap: nowrap;
+}
+.right-header{
+  display: flex;
+  justify-content: right;
+  width: 1000px;
+  flex-wrap: nowrap;
 }
