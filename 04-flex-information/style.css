@@ -24,3 +24,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+  text-align: center;
+  padding-bottom: 32px;
+}
+.group-barberry,
+.group-chili,
+.group-pepper,
+.group-saffron{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.fruits{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
