@@ -26,6 +26,9 @@ input {
 }
 
 
+
+
+
 body{
   display: flex;
   flex-direction: column;
@@ -50,8 +53,9 @@ body{
 .left-links,
 .right-links{
   display: flex;
-  padding: 0;
+  padding: 10px;
   gap: 8px;
+  color: #000;
 }
 
 li { /* List*/
@@ -59,4 +63,12 @@ li { /* List*/
 }
 a:link{ /** :link = normal-unvisited link) **/ /* Link */
   text-decoration: none;
+}
+
+.footer{
+  background-color: #eee;
+}
+
+button{
+  padding: 10px;
 }
