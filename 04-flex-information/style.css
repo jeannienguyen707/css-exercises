@@ -25,6 +25,9 @@ img {
   background: #eee;
 }
 
+
+
+
 .title {
   text-align: center;
   padding-bottom: 32px;
@@ -33,12 +36,12 @@ img {
 .group-chili,
 .group-pepper,
 .group-saffron{
-  display:flex;
+  /* display:flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; not needed 
+  align-items: center; */
   width: 200px;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;* not needed*/ 
   text-align: center;
 }
 
@@ -47,3 +50,7 @@ img {
   justify-content: center;
   gap: 52px;
 }
+
+/*
+text-align: can center images as well
+*/
