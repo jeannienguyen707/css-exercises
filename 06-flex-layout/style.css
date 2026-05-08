@@ -24,3 +24,39 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header,
+.footer{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  padding: 0;
+  gap: 8px;
+}
+
+li { /* List*/
+  list-style-type: none; 
+}
+a:link{ /** :link = normal-unvisited link) **/ /* Link */
+  text-decoration: none;
+}
