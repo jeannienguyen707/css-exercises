@@ -28,32 +28,53 @@ body {
   border-radius: 4px;
 }
 
+
+
+
+
+
+
+
+
+
+
 .header{
   display: flex;
   align-items: center;
   font-size: 32px;
   font-weight: 900px;
   padding-left: 16px;
+  flex: 0 0 auto;
 }
+
 
 
 body{
   display: flex;
   flex-direction: column;
+  
 }
 .center{
   display: flex;
+  flex: 1 1 auto;
+}
+.not-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+
 }
 
 .footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 0 0 auto;
 }
 .sidebar{
   min-width: 300px;
   padding: 16px;
-  
 
 }
 
@@ -76,8 +97,10 @@ a{
 .card{
 
   width: 200px;
+  height: fit-content;
   flex-wrap: wrap;
   padding: 16px;
+  flex: 0 0 auto;
  
 
 }
@@ -86,7 +109,7 @@ a{
   width: auto;
   display: flex;
   flex-wrap: wrap;
-   gap: 24px 24px;
+  gap: 24px 24px;
  
 
 }
