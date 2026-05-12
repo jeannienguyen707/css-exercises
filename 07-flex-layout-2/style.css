@@ -31,29 +31,36 @@ body {
 
 
 
-
-
-
-
-
-
-
+/* 
 .header{
   display: flex;
   align-items: center;
   font-size: 32px;
   font-weight: 900px;
   padding-left: 16px;
-  flex: 0 0 auto;
-}
+  /* flex: 0 0 auto; not needed
+
+  MOVED TOO BETWEEN BODY AND CENTER, CASCADE I GUESS
+} */
+
 
 
 
 body{
   display: flex;
   flex-direction: column;
+
   
 }
+.header{
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900px;
+  padding-left: 16px;
+  /* flex: 0 0 auto; not needed*/
+}
+
 .center{
   display: flex;
   flex: 1 1 auto;
@@ -70,23 +77,27 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 0 0 auto;
+  /* flex: 0 0 auto; None here remove does nothing */
 }
 .sidebar{
   min-width: 300px;
   padding: 16px;
-
+  flex-shrink: 0; /* instead of setting everyone else to grow, just tell this not to shrink */
 }
 
 ul{
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column;  None here remove does nothing */
+  list-style: none;
   padding: 0;
   margin: 0;
-  gap: 16px;
+  gap: 16px; /* not needed */
 }
+
 li{
-   list-style: none;
+  
+  margin-bottom: 20px;  /**  0-> 20 add bottom- margin at bottom to be more accurate */
+
 }
 a{
   text-decoration: none;
@@ -94,19 +105,22 @@ a{
   color: white;
  
 }
+
+
+
+
 .card{
 
-  width: 200px;
-  height: fit-content;
-  flex-wrap: wrap;
+  width: 300px;
+  /* flex-wrap: wrap; None here remove does nothing */
   padding: 16px;
-  flex: 0 0 auto;
+  /* flex: 0 0 auto;None here remove does nothing */
  
 
 }
 .card-box{
   padding: 48px;
-  width: auto;
+  /* width: auto; None here remove does nothing */
   display: flex;
   flex-wrap: wrap;
   gap: 24px 24px;
